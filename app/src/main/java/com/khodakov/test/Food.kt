@@ -1,4 +1,4 @@
-package com.example.snakegame
+package com.khodakov.test
 
 class Food {
     companion object {

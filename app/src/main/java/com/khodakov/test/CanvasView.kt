@@ -1,4 +1,4 @@
-package com.example.snakegame
+package com.khodakov.test
 
 import android.view.View
 import android.util.AttributeSet

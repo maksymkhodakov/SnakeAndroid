@@ -1,4 +1,4 @@
-package com.example.snakegame
+package com.khodakov.test
 
 class Snake {
     companion object {
@@ -7,8 +7,8 @@ class Snake {
         var headY = 0f
         var bodyParts =
             mutableListOf(arrayOf(0f, 0f))
-        var direction = "right";
-        var alive = false;
+        var direction = "right"
+        var alive = false
 
         fun possibleMove(): Boolean {
             if (headX < 0f || headX > 1000f || headY < 0f || headY > 1000)
@@ -17,10 +17,10 @@ class Snake {
         }
 
         fun reset() {
-            headX = 0f;
-            headY = 0f;
+            headX = 0f
+            headY = 0f
             bodyParts = mutableListOf(arrayOf(0f, 0f))
-            direction = "right";
+            direction = "right"
         }
     }
 }
